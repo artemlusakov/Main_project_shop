@@ -29,8 +29,10 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/Main_project_shop/shop",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "E:\\Main_project_shop\\shop\\node_modules\\prettier",
@@ -40,6 +42,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Main_project_shop\shop\public\img" />
       <recent name="E:\Main_project_shop\shop\app\globalsStyles" />
       <recent name="E:\Main_project_shop\shop" />
       <recent name="E:\Main_project_shop\shop\app" />
@@ -54,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718438795475</updated>
       <workItem from="1718438797632" duration="235000" />
-      <workItem from="1718439044581" duration="674000" />
+      <workItem from="1718439044581" duration="6439000" />
     </task>
     <servers />
   </component>
