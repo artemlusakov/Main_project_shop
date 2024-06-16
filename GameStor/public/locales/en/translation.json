@@ -1,0 +1,13 @@
+{
+  "header": {
+    "massage": "Hello"
+  },
+  "profile": {
+    "profile": "Profile"
+  },
+  "notfound": {
+    "NotFoundHome": "Home",
+    "NotFoundMsg": "Error 404 Not Found click here"
+  }
+
+}

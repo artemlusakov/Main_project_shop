@@ -1,0 +1,12 @@
+{
+  "header": {
+    "massage": "Приветствую"
+  },
+  "profile": {
+  "profile": "Профиль"
+ },
+  "notfound": {
+    "NotFoundHome": "Домой",
+    "NotFoundMsg": "Ошибка 404 файл не найден кликни сюда"
+  }
+}

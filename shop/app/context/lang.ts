@@ -1,5 +1,6 @@
+"use client" // говорим что данная деректива будет выполнятся на стороне клиента т.к effector-react это клиентская часть
 import {createDomain} from "effector";
-import {AllowedLangs} from "@/constants/lang";
+import {AllowedLangs} from "@/app/constants/lang";
 
 const lang = createDomain() //создаю домен для смены языка
 

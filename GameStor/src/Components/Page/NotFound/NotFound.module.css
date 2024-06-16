@@ -1,0 +1,23 @@
+.NotFound{
+    padding: 0;
+    margin: 0;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.NotFound a {
+    text-decoration: none;
+    font-size: 30px;
+    border: 1px solid #212121;
+    margin-left: 30px;
+    padding: 5px;
+    border-radius:5px ;
+}
+
+.NotFound a:hover{
+    background-color: #1D2533;
+    color: #fff;
+}

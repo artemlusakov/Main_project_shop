@@ -27,7 +27,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Main_project_shop/shop",
+    "last_opened_file_path": "E:/Main_project_shop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -42,10 +42,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Main_project_shop\shop\app\components\modules\Header" />
+      <recent name="E:\Main_project_shop\shop\app" />
       <recent name="E:\Main_project_shop\shop\public\img" />
       <recent name="E:\Main_project_shop\shop\app\globalsStyles" />
       <recent name="E:\Main_project_shop\shop" />
-      <recent name="E:\Main_project_shop\shop\app" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -57,11 +58,23 @@
       <option name="presentableId" value="Default" />
       <updated>1718438795475</updated>
       <workItem from="1718438797632" duration="235000" />
-      <workItem from="1718439044581" duration="6439000" />
+      <workItem from="1718439044581" duration="12936000" />
+      <workItem from="1718461941755" duration="2392000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
