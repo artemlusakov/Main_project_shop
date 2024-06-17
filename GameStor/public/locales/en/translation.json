@@ -1,4 +1,7 @@
 {
+  "navigate":{
+    "catalog": "catalog game"
+  },
   "header": {
     "massage": "Hello"
   },

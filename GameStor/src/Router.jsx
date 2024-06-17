@@ -12,6 +12,11 @@ const router = createBrowserRouter([
         errorElement:<NotFound/>,
     },
     {
+        path: "/Home",
+        element: <Home/>,
+        errorElement:<NotFound/>,
+    },
+    {
         path: "/Profile",
         element:<AllProfiles/>
     },
