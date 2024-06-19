@@ -11,16 +11,21 @@ import Game from '../../Elements/Slidet/data.js';
 const Home = () => {
     const { t, i18n } = useTranslation();
 
-    const [slider, setSlider] = useState(Game)
-    const [currentIndex, setCurrentIIndex] = useState(0)
+
 
     return (
         <div className='HomeMain'>
             <Navigate/>
 
-            <div className='HomeMainContent pt100'>
-                
-            </div>
+            <main className='HomeMainContent pt100'>
+                <section className='Slider'>
+                    Вскоре тут будет слайдер!
+                </section>
+
+                <section className='aboutUs'>
+
+                </section>
+            </main>
 
         </div>
     );

@@ -60,7 +60,7 @@ nav>ul img {
 
 .ProfilBloc{
   display: flex;
-  
+  width: 150px;
   justify-content: space-between;
 }
 
