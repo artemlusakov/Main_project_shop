@@ -1,6 +1,7 @@
 {
   "navigate":{
-    "catalog": "catalog game"
+    "catalog": "catalog game",
+    "inputText": "Write the name of the game"
   },
   "header": {
     "massage": "Hello"
