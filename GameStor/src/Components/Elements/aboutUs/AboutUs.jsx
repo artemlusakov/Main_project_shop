@@ -1,10 +1,11 @@
 import React from 'react';
+import s from './AboutUs.module.css'
 
 const AboutUs = (props) => {
     return (
-        <form className='AboutUsCard'>
-            <div className='AboutUsCardImg'><img src={this.props.Img} alt="AboutUsCardImg" /></div>
-            <h2>{this.props.Text}</h2>
+        <form className={s.AboutUsCard}>
+            <div className='AboutUsCardImg'><img src={props.Img} alt="AboutUsCardImg" /></div>
+            <h2>{props.Text}</h2>
         </form>
     );
 };

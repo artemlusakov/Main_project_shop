@@ -3,6 +3,7 @@ nav{
   height: 100px;
   display: flex;
   align-items: center;
+  z-index: 10;
 
   position: fixed;
 }
@@ -50,6 +51,10 @@ nav>ul img {
 
 .NavInput{
   width: 90%;
+}
+
+.NavInput input::placeholder{
+  color: #000;
 
 }
 

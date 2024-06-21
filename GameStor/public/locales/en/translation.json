@@ -4,8 +4,10 @@
     "inputText": "Write the name of the game"
   },
   "header": {
-    "massage": "Hello"
-    "slider"
+    "massage": "Hello",
+    "slider" : "There will be a slider here soon !",
+
+    "aboutusmaintext":"why us?"
   },
   "profile": {
     "profile": "Profile"

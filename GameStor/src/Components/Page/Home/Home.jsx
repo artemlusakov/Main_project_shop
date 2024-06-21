@@ -5,13 +5,12 @@ import SwitchLanguage from "../../Elements/SwitchLanguage/SwitchLanguage.jsx";
 import Navigate from "../../Elements/Navigation/Navigate.jsx"
 import './Home.css'
 import Game from '../../Elements/Slidet/data.js';
+import AboutUs from '../../Elements/aboutUs/AboutUs.jsx';
 
 
 
 const Home = () => {
     const { t, i18n } = useTranslation();
-
-
 
     return (
         <div className='HomeMain'>
@@ -19,11 +18,17 @@ const Home = () => {
 
             <main className='HomeMainContent pt100'>
                 <section className='Slider'>
-                    Вскоре тут будет слайдер!
+                    {t("header.slider")}
                 </section>
 
                 <section className='aboutUs'>
-
+                    <h2>{t("header.aboutusmaintext")}</h2>
+                    <div className='aboutUsMainContent'>
+                    <AboutUs Text="Поддержка" Img="https://png.pngtree.com/png-vector/20230407/ourmid/pngtree-online-support-line-icon-vector-png-image_6680431.png"/>
+                    <AboutUs Text="Поддержка" Img="https://png.pngtree.com/png-vector/20230407/ourmid/pngtree-online-support-line-icon-vector-png-image_6680431.png"/>
+                    <AboutUs Text="Поддержка" Img="https://png.pngtree.com/png-vector/20230407/ourmid/pngtree-online-support-line-icon-vector-png-image_6680431.png"/>
+                    <AboutUs Text="Поддержка" Img="https://png.pngtree.com/png-vector/20230407/ourmid/pngtree-online-support-line-icon-vector-png-image_6680431.png"/>
+                    </div>
                 </section>
             </main>
 

@@ -4,7 +4,10 @@
     "inputText": "Напишите название игры"
   },
   "header": {
-    "massage": "Приветствую"
+    "massage": "Приветствую",
+    "slider": "Скоро тут будет слайдер !",
+
+    "aboutusmaintext":"почему именно мы ?"
   },
   "profile": {
   "profile": "Профиль"
