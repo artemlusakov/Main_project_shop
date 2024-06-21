@@ -7,7 +7,10 @@
     "massage": "Hello",
     "slider" : "There will be a slider here soon !",
 
-    "aboutusmaintext":"why us?"
+    "aboutusmaintext":"why us?",
+    "aboutussuport": "Responsive support",
+    "aboutusprice":"favorable prices"
+
   },
   "profile": {
     "profile": "Profile"
