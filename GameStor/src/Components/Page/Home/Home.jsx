@@ -7,7 +7,7 @@ import './Home.css'
 import Game from '../../Elements/Slidet/data.js';
 import AboutUs from '../../Elements/aboutUs/AboutUs.jsx';
 
-
+import communite from '../../../assets/IMG/communite.png'
 
 const Home = () => {
     const { t, i18n } = useTranslation();
@@ -26,8 +26,9 @@ const Home = () => {
                     <div className='aboutUsMainContent'>
                     <AboutUs Text={t("header.aboutussuport")} Img="https://cdn-icons-png.flaticon.com/512/1152/1152935.png"/>
                     <AboutUs Text={t("header.aboutusprice")} Img="https://cdn-icons-png.flaticon.com/512/166/166817.png"/>
-                    <AboutUs Text={t("header.aboutussuport")} Img="https://png.pngtree.com/png-vector/20230407/ourmid/pngtree-online-support-line-icon-vector-png-image_6680431.png"/>
-                    <AboutUs Text={t("header.aboutussuport")} Img="https://png.pngtree.com/png-vector/20230407/ourmid/pngtree-online-support-line-icon-vector-png-image_6680431.png"/>
+                    <AboutUs Text={t("header.aboutusprice")} Img="https://png.pngtree.com/png-vector/20230407/ourmid/pngtree-online-support-line-icon-vector-png-image_6680431.png"/>
+                    <AboutUs Text={t("header.community")} Img={communite}/>
+                    
                     </div>
                 </section>
             </main>

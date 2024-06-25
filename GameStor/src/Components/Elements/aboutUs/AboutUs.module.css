@@ -3,11 +3,21 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 2px solid gold;
+   
     border-radius: 10px;
     height: 150px;
     width: 200px;
+}
 
+.gradient{
+    position: relative;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to top, 
+        gold, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
 }
 
 .AboutUsCard img {
