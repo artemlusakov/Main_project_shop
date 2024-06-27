@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import {useTranslation} from "react-i18next";
-import SwitchLanguage from "../../Elements/SwitchLanguage/SwitchLanguage.jsx";
 
-import Navigate from "../../Elements/Navigation/Navigate.jsx"
-import './Home.css'
-import Game from '../../Elements/Slidet/data.js';
+import Navigate from "../../Elements/Navigation/Navigate.jsx";
+import './Home.css';
+// import Game from '../../Elements/Slidet/data.js';
 import AboutUs from '../../Elements/AboutUs/AboutUs.jsx';
 
 import communite from '../../../assets/IMG/communite.png'
 import suport from '../../../assets/IMG/suport.png'
 import price from '../../../assets/IMG/price.png'
+import GamesCatalog from '../../Elements/GamesCatalog/GamesCatalog.jsx';
 
 const Home = () => {
     const { t, i18n } = useTranslation();
@@ -18,7 +18,7 @@ const Home = () => {
         <div className='HomeMain'>
             <Navigate/>
 
-            <main className='HomeMainContent pt100'>
+            <main className='HomeMainContent pt50'>
                 <section className='Slider'>
                     <h2>{t("header.slider")}</h2>
                 </section>
@@ -28,9 +28,14 @@ const Home = () => {
                     <div className='aboutUsMainContent'>
                     <AboutUs Text={t("header.aboutussuport")} Img={suport}/>
                     <AboutUs Text={t("header.aboutusprice")} Img={price}/>
+                    <AboutUs Text={t("header.aboutusprice")} Img={price}/>
                     <AboutUs Text={t("header.community")} Img={communite}/>
                     
                     </div>
+                </section>
+
+                <section className='GamesCatalog'>
+                    <GamesCatalog GamesCatalogName={t("gamescatalog.gamescatalognhits")}/>
                 </section>
             </main>
 

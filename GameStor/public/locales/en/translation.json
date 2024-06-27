@@ -13,6 +13,9 @@
     "community": "active community" 
 
   },
+  "gamescatalog":{
+    "gamescatalognhits":"Hits"
+  },
   "profile": {
     "profile": "Profile"
   },
