@@ -7,11 +7,14 @@ import SwitchLanguage from '../SwitchLanguage/SwitchLanguage';
 import Logo from "../../../assets/IMG/Pc-logo-png.png";
 import ProfileIcon from "../../../assets/IMG/Profile.png";
 import IconLink from "../../../assets/IMG/search.png"
+import ModalWindow from '../ModalWindow/ModalWindow.jsx';
 
 
 
 const Navigate = () => {
+    const [modalActive, setModalActive] = React.useState(false);
     const { t, i18n } = useTranslation();
+
     return (
         <nav>
             <ul>
@@ -26,8 +29,12 @@ const Navigate = () => {
 
                 <form className={s.ProfilBloc}>
                 <SwitchLanguage />
-                <li className='bgw br100 p5'><Link to={'/Profile'}> <img src={ProfileIcon} alt='Profil.icon'/> </Link></li>
+                <li className='bgw br100 p5'><button onClick={()=>setModalActive(true)}> <img src={ProfileIcon} alt='Profil.icon'/> </button></li>
                 </form>
+                
+                <ModalWindow active={modalActive} setActiv={setModalActive}>
+                    <h1>регистрация</h1>
+                </ModalWindow>
             </ul>
         </nav>
     );
