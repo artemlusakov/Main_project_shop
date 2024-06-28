@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-   
+
     border-radius: 10px;
     height: 150px;
     width: 200px;
@@ -21,6 +21,9 @@
 }
 
 .AboutUsCard img {
+    background: #2b384b;
+    border-radius: 100%;
+    padding: 10px;
     height: 100px;
     width: 100px;
     position: relative;

@@ -16,6 +16,9 @@
   "gamescatalog":{
     "gamescatalognhits":"Hits"
   },
+  "gamescard":{
+    "pay":"pay"
+  },
   "profile": {
     "profile": "Profile"
   },

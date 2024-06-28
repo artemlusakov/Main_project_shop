@@ -19,20 +19,20 @@ const Navigate = () => {
         <nav>
             <ul>
                 <li className='bgw p5 br10px'><Link to={'/'} className={s.NavigateLogo}><img src={Logo} alt="Logo"/></Link></li>
-                    <form className={s.NavSearch }>
+                    <div className={s.NavSearch }>
                         <li className={s.NavigateBtn}><button className='p5 '>{t("navigate.catalog")}</button></li>
-                        <form className={s.NavLinkBloc}>
+                        <div className={s.NavLinkBloc}>
                             <li className={s.NavInput}><input className='p5' type="text" placeholder={t('navigate.inputText')}/></li>
                             <li> <button className={s.NavSubmit}><img src={IconLink} alt="" /> </button></li>
-                        </form>
-                    </form>
+                        </div>
+                    </div>
 
-                <form className={s.ProfilBloc}>
+                <div className={s.ProfilBloc}>
                 <SwitchLanguage />
                 <li className='bgw br100 p5'><button onClick={()=>setModalActive(true)}> <img src={ProfileIcon} alt='Profil.icon'/> </button></li>
-                </form>
+                </div>
                 
-                <ModalWindow active={modalActive} setActiv={setModalActive}>
+                <ModalWindow active={modalActive} setActive={setModalActive}>
                     <h1>регистрация</h1>
                 </ModalWindow>
             </ul>
