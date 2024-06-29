@@ -27,6 +27,12 @@
   z-index: 3;
 }
 
+.SectionClick{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
 .aboutUs{
   display: flex;
   justify-content: space-around;

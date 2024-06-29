@@ -1,0 +1,8 @@
+.MainContent{
+    background: #1c405b;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+

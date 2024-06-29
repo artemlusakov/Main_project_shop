@@ -10,6 +10,7 @@ import communite from '../../../assets/IMG/communite.png'
 import suport from '../../../assets/IMG/suport.png'
 import price from '../../../assets/IMG/price.png'
 import GamesCatalog from '../../Elements/GamesCatalog/GamesCatalog.jsx';
+import {Counter} from "../../../features/counter/Counter.jsx";
 
 const Home = () => {
     const { t, i18n } = useTranslation();
@@ -21,6 +22,10 @@ const Home = () => {
             <main className='HomeMainContent pt50'>
                 <section className='Slider'>
                     <h2>{t("header.slider")}</h2>
+                </section>
+
+                <section className='SectionClick'>
+                    <Counter/>
                 </section>
 
                 <section className='aboutUs'>
@@ -37,6 +42,8 @@ const Home = () => {
                 <section className='GamesCatalog'>
                     <GamesCatalog GamesCatalogName={t("gamescatalog.gamescatalognhits")}/>
                 </section>
+
+
             </main>
 
         </div>
