@@ -25,6 +25,10 @@
   "notfound": {
     "NotFoundHome": "Home",
     "NotFoundMsg": "Error 404 Not Found click here"
+  },
+  "counter":{
+    "add": "Добавить",
+    "subtract":"Отнять"
   }
 
 }
