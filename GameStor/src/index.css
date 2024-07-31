@@ -144,3 +144,21 @@ body {
     src: url('./assets/fonts/Rostelecom-Basis-Regular.woff') format("woff");
 }
 /* Fonts ________________________________________________________________________________________________________ */
+
+.TestBox{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.TestBox ul{
+    width: 100%;
+}
+.TestBox li {
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+.TestBox button{
+    margin-top: 30px;
+}

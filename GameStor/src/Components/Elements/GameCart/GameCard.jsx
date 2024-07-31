@@ -5,15 +5,21 @@ import {useTranslation} from "react-i18next";
 const GameCard = (props) => {
     const { t, i18n } = useTranslation();
 
+    const {
+        ImgGame,
+        NameGame,
+        Price
+    } = props
+
     return (
         <div className={s.GameCartMain}>
-            <img src={props.ImgGame} alt="img game"/>
-            <h1>{props.NameGame}</h1>
+            <img src={ImgGame} alt="img game"/>
+            <h1>{NameGame}</h1>
             <div className={s.GameCartDescription}>
 
             </div>
             <div className={GameCartPrice}>
-                <h3>{props.Price}</h3>
+                <h3>{Price}</h3>
                 <button>{t('gamescard.pay')}</button>
             </div>
         </div>

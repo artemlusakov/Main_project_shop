@@ -4,7 +4,7 @@ import {useTranslation} from "react-i18next";
 import Navigate from "../../Elements/Navigation/Navigate.jsx";
 import './Home.css';
 // import Game from '../../Elements/Slidet/data.js';
-import AboutUs from '../../Elements/aboutUs/AboutUs.jsx';
+import AboutUs from '../../Elements/AboutUs/AboutUs.jsx';
 
 import communite from '../../../assets/IMG/communite.png'
 import suport from '../../../assets/IMG/suport.png'
